@@ -3,14 +3,12 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Czech CB Repository</title>
+        <title></title>
     </head>
     <body>
-        <div>
-            Zde bude obsah
-        </div>
+        
     </body>
 </html>
