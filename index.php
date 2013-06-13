@@ -3,12 +3,12 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>eBukkit</title>
+        <title></title>
     </head>
     <body>
-        Černokněžník je nejlepší!
+        
     </body>
 </html>
