@@ -1,2 +1,2 @@
-Bukkit
+eBukkit (e = EPIC)
 ======
