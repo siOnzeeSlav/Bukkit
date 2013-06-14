@@ -1,14 +1,14 @@
 <?php
-
+header(location: "http://www.bukkit.frelania.eu/Cernokneznik/");
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
     <head>
         <meta charset="utf-8" />
         <title></title>
     </head>
     <body>
-        <p>Důležitá funkce < p > :D</p>
+        
     </body>
 </html>
