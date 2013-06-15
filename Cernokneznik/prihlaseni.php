@@ -1,3 +1,10 @@
+ Definovaní proměných:
+$serverXs = "..."; // jméno serveru
+$loginXs = "..."; // přihlašovací jméno
+$hesloXs = "..."; // heslo
+$databazeXs = "..."; // název databáze
+$mysqlXs = new mysqli("$serverXs", "$loginXs", "$hesloXs", "$databazeXs"); // Připojení k databázy
+ 
  //Ověření na ostatních stránkách
 <?php
 session_start();
@@ -23,15 +30,9 @@ elseif(isset($_SESSION['jmeno']) && isset($_SESSION['heslo']))
          }
     }
 ?>
+
 //přihlášení.php
 <?php 
-$serverXw = "..."; // jméno serveru
-$loginXw = "..."; // přihlašovací jméno
-$hesloXw = "..."; // heslo
-$databazeXw = "..."; // název databáze
-$mysqlXw = new mysqli("$serverXw", "$loginXw", "$hesloXw", "$databazeXw"); // Připojení k databázy
-
-
 session_start();
 if(empty($_POST['jmeno']) or empty($_POST['heslo'])){
 echo'Ouha! Musíš vyplnit obě pole!';}  
